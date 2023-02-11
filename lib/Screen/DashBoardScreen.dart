@@ -213,7 +213,7 @@ class DashBoardScreenState extends State<DashBoardScreen  > {
                                 child: GestureDetector(
                                   onTap: (){
                                     if(index!=1){
-                                   
+
                                     }
                                    },
                                   child: Container(
