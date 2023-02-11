@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:zomatocloneflutte/Screen/OfferScreen.dart';
 import 'package:zomatocloneflutte/main.dart';
 
 import '../MyBehavior.dart';
@@ -214,8 +213,7 @@ class DashBoardScreenState extends State<DashBoardScreen  > {
                                 child: GestureDetector(
                                   onTap: (){
                                     if(index!=1){
-                                      Navigator.push(MyApp.appnavKey.currentContext!, MaterialPageRoute(builder: (_)=>OfferScreen("assets/images/img_frame${index+1}.png",index)));
-
+                                   
                                     }
                                    },
                                   child: Container(
